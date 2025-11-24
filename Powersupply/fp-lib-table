@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "LM431ACM3_NOPB")(type "KiCad")(uri "/Users/giovannipignoni/Downloads/LM431ACM3_NOPB.pretty")(options "")(descr ""))
+)
