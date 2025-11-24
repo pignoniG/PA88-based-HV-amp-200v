@@ -1,0 +1,44 @@
+%TF.GenerationSoftware,KiCad,Pcbnew,9.0.5*%
+%TF.CreationDate,2025-11-21T22:54:30+01:00*%
+%TF.ProjectId,hv amp front,68762061-6d70-4206-9672-6f6e742e6b69,rev?*%
+%TF.SameCoordinates,Original*%
+%TF.FileFunction,Soldermask,Top*%
+%TF.FilePolarity,Negative*%
+%FSLAX46Y46*%
+G04 Gerber Fmt 4.6, Leading zero omitted, Abs format (unit mm)*
+G04 Created by KiCad (PCBNEW 9.0.5) date 2025-11-21 22:54:30*
+%MOMM*%
+%LPD*%
+G01*
+G04 APERTURE LIST*
+%ADD10C,3.700000*%
+%ADD11C,9.500000*%
+%ADD12C,4.300000*%
+G04 APERTURE END LIST*
+D10*
+%TO.C,*%
+X136930000Y-81200000D03*
+%TD*%
+D11*
+%TO.C,*%
+X205480000Y-69940000D03*
+%TD*%
+D12*
+%TO.C,REF\u002A\u002A*%
+X66320000Y-49070000D03*
+%TD*%
+%TO.C,REF\u002A\u002A*%
+X232320000Y-49070000D03*
+%TD*%
+D11*
+%TO.C,*%
+X125480000Y-69940000D03*
+%TD*%
+D12*
+%TO.C,REF\u002A\u002A*%
+X66320000Y-89070000D03*
+%TD*%
+%TO.C,REF\u002A\u002A*%
+X232320000Y-89070000D03*
+%TD*%
+M02*
