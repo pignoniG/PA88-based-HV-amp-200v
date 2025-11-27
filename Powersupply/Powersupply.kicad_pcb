@@ -74,7 +74,7 @@
 			(mirror no)
 			(drillshape 0)
 			(scaleselection 1)
-			(outputdirectory "")
+			(outputdirectory "Export/")
 		)
 	)
 	(net 0 "")
@@ -150,7 +150,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/819f7327-e5b8-4d2b-8fe8-4efb9666bcb5")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -389,7 +389,7 @@
 		)
 		(path "/a0b30e31-78d8-4164-89c9-d6bf4e5182c2")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -1.85 -3.41)
@@ -653,7 +653,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/0be1eb80-667f-45d4-a141-62e41feba115")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -759,7 +759,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/329c3a39-1047-4901-988d-8ee700e4c478")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -825,7 +825,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/615c0ad9-c75f-4547-9d09-f914ad64842a")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.12 -15.08)
@@ -5902,7 +5902,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/a6721b02-27cf-4de0-af66-db2465b7ace5")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -5970,7 +5970,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/31fa71ef-ab0a-44c1-b802-42c7bc6f2f2f")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.66 -1.11)
@@ -6253,7 +6253,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/d7ed647a-dd51-45fc-8457-0ac34fb98d69")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(pad "" np_thru_hole circle
 			(at 0 0)
@@ -6319,7 +6319,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/03c0619b-bd31-473f-b2aa-c3d376ec1f6c")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -6469,8 +6469,8 @@
 		(at 171.84 100.6475 90)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "R3"
-			(at 0 -1.68 90)
+		(property "Reference" "I_SET1"
+			(at 2.9275 1.41 180)
 			(layer "F.SilkS")
 			(uuid "0a8c150a-7b97-448d-ab09-e287a0f6fef0")
 			(effects
@@ -6480,7 +6480,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "39"
 			(at 0 1.68 90)
 			(layer "F.Fab")
 			(uuid "c5f7275b-cd53-4743-a1d5-db3dc31dfcf7")
@@ -6518,7 +6518,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/a705d432-7c41-4826-8c3c-a2235c6ec339")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -6719,7 +6719,7 @@
 		(property ki_fp_filters "MountingHole*")
 		(path "/b309a99d-4f18-45bc-9a07-f26d312cc394")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr exclude_from_pos_files exclude_from_bom)
 		(fp_text user "${REFERENCE}"
 			(at 0 0 0)
@@ -6798,7 +6798,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/b3578eb3-f024-4dbd-86c3-4f4df3da9402")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.98 -5.22)
@@ -7253,7 +7253,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/5cce3a31-e189-436a-8798-2e3f13644a8e")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -7385,7 +7385,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/4501df08-8a66-4d73-af89-8e8caaa26415")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.75 -1.11)
@@ -7666,7 +7666,7 @@
 		(property ki_fp_filters "TO?220*")
 		(path "/fe7eccc9-a4e9-4605-8e5d-454fb82d2933")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -2.57 -3.26)
@@ -7904,7 +7904,7 @@
 		(property ki_fp_filters "D*DO?41*")
 		(path "/f8b98a93-e93f-468a-856a-7b8fc8e74ca0")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -2.66 1.11)
@@ -8136,8 +8136,8 @@
 		(at 167.62 108.29 180)
 		(descr "Capacitor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC-7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf, https://docs.google.com/spreadsheets/d/1BsfQQcO9C6DZCsRaXUlFlo91Tg2WpOkGARC1WS5S8t0/edit?usp=sharing), generated with kicad-footprint-generator")
 		(tags "capacitor handsolder")
-		(property "Reference" "RVset1"
-			(at 0 -1.68 0)
+		(property "Reference" "V_SET1"
+			(at -1.82 -2 0)
 			(layer "F.SilkS")
 			(uuid "fee25e30-5932-48ca-bd76-73b6532baabd")
 			(effects
@@ -8147,7 +8147,7 @@
 				)
 			)
 		)
-		(property "Value" "360k"
+		(property "Value" "634K"
 			(at 0 1.68 0)
 			(layer "F.Fab")
 			(uuid "e8d75ffb-a2db-4457-a0e4-8ca09dca3021")
@@ -8185,7 +8185,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/b01d7d43-c225-4f50-8182-aeef9ac2d67e")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -8412,7 +8412,7 @@
 		(property ki_fp_filters "D*DO?35*")
 		(path "/9d2b506f-4473-40d8-b574-df5b5c819844")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.75 -1.11)
@@ -8693,7 +8693,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4a1767af-1482-4598-8cac-b76829355d54")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -8892,7 +8892,7 @@
 		(property ki_fp_filters "C_*")
 		(path "/e408adb2-0ed1-4715-bc44-f6d7e1a78330")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 3.58 1.44)
@@ -11390,7 +11390,7 @@
 		(property ki_fp_filters "Heatsink_*")
 		(path "/af70205d-b070-435a-b316-4aa6a05a1608")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start -17.251322 -5.347047)
@@ -12232,7 +12232,7 @@
 		(property ki_fp_filters "Connector*:*_1x??_*")
 		(path "/4d5413be-b903-4a6e-8fa0-4547d3932d9d")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr through_hole)
 		(fp_line
 			(start 5.98 -5.22)
@@ -12687,7 +12687,7 @@
 		(property ki_fp_filters "MountingHole*Pad*")
 		(path "/d21c872f-2158-437c-a347-1cca2ba28d91")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr exclude_from_pos_files)
 		(fp_circle
 			(center 0 0)
@@ -12842,7 +12842,7 @@
 		)
 		(path "/045476fd-43b3-4bd9-b103-a06292e43abf")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.91 -1.56)
@@ -13166,7 +13166,7 @@
 		(property ki_fp_filters "Diode*Bridge*OnSemi*SDIP*4L*")
 		(path "/20f75832-0837-4e59-8347-d76b7829e655")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 3.285 4.25)
@@ -13463,7 +13463,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/f9a815cd-39b0-4223-88ed-031e5a1d43ac")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 -0.735)
@@ -13662,7 +13662,7 @@
 		(property ki_fp_filters "R_*")
 		(path "/4c41f958-1988-4562-b73c-3cac50ba4c8d")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start -0.261252 0.735)
@@ -13901,7 +13901,7 @@
 		)
 		(path "/ff5629d1-6741-41d4-b1fc-b30d6ac5cd03")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 1.91 3.41)
@@ -14215,7 +14215,7 @@
 		)
 		(path "/3aca053c-c077-4203-a1c8-e30164b5a3e3")
 		(sheetname "/")
-		(sheetfile "200v psu.kicad_sch")
+		(sheetfile "Powersupply.kicad_sch")
 		(attr smd)
 		(fp_line
 			(start 0.91 -1.56)
@@ -14492,6 +14492,30 @@
 		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "5b1a60d8-a620-4e5c-b7c4-80df5839434d")
+	)
+	(gr_text "based on changpuak.ch QO-408"
+		(at 122.8 112.09 0)
+		(layer "F.SilkS")
+		(uuid "1eb3efe2-9330-478d-9d96-52b4d7baade9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(gr_text "Danger!\nHigh Voltage"
+		(at 168.87 94.42 0)
+		(layer "F.SilkS")
+		(uuid "ae935c98-94f8-4da5-827c-1738e0ec284d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
 	)
 	(segment
 		(start 149.84 102.7775)

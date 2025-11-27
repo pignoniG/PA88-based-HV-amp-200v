@@ -2430,6 +2430,26 @@
 			(embedded_fonts no)
 		)
 	)
+	(text "634K = 211V\n\nsee https://www.changpuak.ch/electronics/VB408.php\nto calcualte\n"
+		(exclude_from_sim no)
+		(at 214.63 97.79 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "a66d876f-f3fc-4724-ab0f-ad908e7206aa")
+	)
+	(text "39ohm = 65mA\n\nsee https://www.changpuak.ch/electronics/VB408.php\nto calcualte\n"
+		(exclude_from_sim no)
+		(at 173.99 25.4 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "c157f447-8ed3-408e-a2f9-70d5a736a975")
+	)
 	(junction
 		(at 167.64 102.87)
 		(diameter 0)
@@ -4621,7 +4641,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "a705d432-7c41-4826-8c3c-a2235c6ec339")
-		(property "Reference" "R3"
+		(property "Reference" "I_SET1"
 			(at 166.37 33.02 90)
 			(effects
 				(font
@@ -4629,7 +4649,7 @@
 				)
 			)
 		)
-		(property "Value" "47"
+		(property "Value" "39"
 			(at 166.37 35.56 90)
 			(effects
 				(font
@@ -4673,7 +4693,7 @@
 		(instances
 			(project "Untitled"
 				(path "/993c4fa3-eb3b-4c54-a665-861e22316333"
-					(reference "R3")
+					(reference "I_SET1")
 					(unit 1)
 				)
 			)
@@ -4753,7 +4773,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "b01d7d43-c225-4f50-8182-aeef9ac2d67e")
-		(property "Reference" "RVset1"
+		(property "Reference" "V_SET1"
 			(at 181.61 96.5199 0)
 			(effects
 				(font
@@ -4762,7 +4782,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "360k"
+		(property "Value" "634K"
 			(at 181.61 99.0599 0)
 			(effects
 				(font
@@ -4807,7 +4827,7 @@
 		(instances
 			(project "Untitled"
 				(path "/993c4fa3-eb3b-4c54-a665-861e22316333"
-					(reference "RVset1")
+					(reference "V_SET1")
 					(unit 1)
 				)
 			)

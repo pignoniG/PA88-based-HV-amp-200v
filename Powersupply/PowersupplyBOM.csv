@@ -1,0 +1,23 @@
+Id;Designator;Footprint;Quantity;Designation;Supplier and ref;;
+1;R6;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;1;7K5;;;
+2;Q2;SOT-223-3_TabPin2;1;FZT458QTA;;;
+;;;;;;;
+4;C2;CP_Radial_D30.0mm_P10.00mm_SnapIn;1;LAS2G101MELZ25;;;
+5;D3,D4;D_MiniMELF;2;TLZ10D-GS08;;;
+6;R4,R2;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;2;470k;;;
+7;I_SET1;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;1;39;;;
+8;J2,J1;Molex_KK-396_A-41791-0002_1x02_P3.96mm_Vertical;2;26-60-4020;;;
+9;D2,D1;D_MiniMELF;2;LL4148-GS08;;;
+10;U1;TO-220-3_Vertical;1;IRFB9N60APBF;;;
+11;V_SET1;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;1;634K;;;
+12;C1;CP_Radial_D12.5mm_P5.00mm;1;"
+EEU-EB2G100";;;
+13;HS1;Heatsink_AAVID_Extruded_531102B02100G_34.9x12.7mm_H38.1mm;1;531102B02100G;;;
+14;U2,U3;SOT-23-3;2;LM431ACM3_NOPB;;;
+15;D5;Diode_Bridge_OnSemi_SDIP-4L;1;DF06S;;;
+16;R1;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;1;390;;;
+17;R5;C_0805_2012Metric_Pad1.18x1.45mm_HandSolder;1;16k;;;
+18;Q1;SOT-223-3_TabPin2;1;FZT558TA;;;
+;;;;;;;
+;;Headers & Wire Housings HSG 2P W/LKG RAMP;4;09-50-3021;;;
+;;Headers & Wire Housings KK 156 TERMINAL CRIMP;4;08-50-0015;;;
