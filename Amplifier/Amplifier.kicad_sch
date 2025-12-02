@@ -2061,6 +2061,12 @@
 		)
 	)
 	(junction
+		(at 138.43 127)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "00187017-e0e8-4ef0-8626-6b99e0638ede")
+	)
+	(junction
 		(at 156.21 54.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2107,12 +2113,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "3a2e4737-9bcd-4e2e-b208-97f694b8dfa9")
-	)
-	(junction
-		(at 138.43 116.84)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "436761bd-37c9-4e86-9f18-56617df5e3a0")
 	)
 	(junction
 		(at 156.21 110.49)
@@ -2269,7 +2269,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 69.85) (xy 158.75 69.85)
+			(xy 138.43 69.85) (xy 140.97 69.85)
 		)
 		(stroke
 			(width 0)
@@ -2319,23 +2319,13 @@
 	)
 	(wire
 		(pts
-			(xy 109.22 110.49) (xy 109.22 113.03)
+			(xy 109.22 120.65) (xy 109.22 123.19)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "2f4810bf-e721-4891-8bc6-efb72cc7cd92")
-	)
-	(wire
-		(pts
-			(xy 138.43 114.3) (xy 138.43 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2fe6f19f-a6bb-4db2-a25f-29b05aa1f89e")
 	)
 	(wire
 		(pts
@@ -2369,7 +2359,7 @@
 	)
 	(wire
 		(pts
-			(xy 118.11 116.84) (xy 138.43 116.84)
+			(xy 118.11 127) (xy 138.43 127)
 		)
 		(stroke
 			(width 0)
@@ -2459,16 +2449,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 106.68) (xy 138.43 109.22)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "56682196-e693-41f2-a71c-93b8b515d22a")
-	)
-	(wire
-		(pts
 			(xy 165.1 54.61) (xy 182.88 54.61)
 		)
 		(stroke
@@ -2476,6 +2456,16 @@
 			(type default)
 		)
 		(uuid "5de708d8-2b9c-40b5-92dc-b076fdd8a912")
+	)
+	(wire
+		(pts
+			(xy 138.43 127) (xy 138.43 128.27)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60222df9-3825-4d7b-bf0e-a866f6e9c012")
 	)
 	(wire
 		(pts
@@ -2569,16 +2559,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 116.84) (xy 138.43 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7fd7aa33-ec2f-420e-80dd-d3b62b5dabf6")
-	)
-	(wire
-		(pts
 			(xy 111.76 177.8) (xy 111.76 179.07)
 		)
 		(stroke
@@ -2596,6 +2576,16 @@
 			(type default)
 		)
 		(uuid "80849fdc-c5ea-49af-a538-1029f0c2b649")
+	)
+	(wire
+		(pts
+			(xy 138.43 121.92) (xy 138.43 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "87502e10-74e3-434d-836c-bed3984dded0")
 	)
 	(wire
 		(pts
@@ -2646,6 +2636,26 @@
 			(type default)
 		)
 		(uuid "926fd860-260b-4580-9bb0-0b602af39121")
+	)
+	(wire
+		(pts
+			(xy 138.43 107.95) (xy 138.43 106.68)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "929a6046-8cea-4685-8e52-ab5a028c10b3")
+	)
+	(wire
+		(pts
+			(xy 138.43 113.03) (xy 138.43 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "93c2d587-0cac-49dc-9014-0b8fd73b2b20")
 	)
 	(wire
 		(pts
@@ -2706,6 +2716,16 @@
 			(type default)
 		)
 		(uuid "a0a3646c-8b91-4a7c-a588-986d61dfea6a")
+	)
+	(wire
+		(pts
+			(xy 138.43 138.43) (xy 138.43 140.97)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a0b1ca95-06c2-449e-96ae-07468714c073")
 	)
 	(wire
 		(pts
@@ -2819,16 +2839,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 124.46) (xy 138.43 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "bc48e828-b873-42e5-955c-74e36437bca5")
-	)
-	(wire
-		(pts
 			(xy 126.365 80.01) (xy 132.08 80.01)
 		)
 		(stroke
@@ -2846,6 +2856,16 @@
 			(type default)
 		)
 		(uuid "be3d8933-e2f8-4ea0-b6b8-d017096e3a86")
+	)
+	(wire
+		(pts
+			(xy 153.67 69.85) (xy 158.75 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c21f92d6-312c-42ca-b8d8-5203a6960ff0")
 	)
 	(wire
 		(pts
@@ -2876,6 +2896,16 @@
 			(type default)
 		)
 		(uuid "ccf13d47-40d5-4476-893e-4f3b7a6340de")
+	)
+	(wire
+		(pts
+			(xy 146.05 69.85) (xy 148.59 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2ae04e2-05b2-454a-9e52-3e309be5b37d")
 	)
 	(wire
 		(pts
@@ -4060,7 +4090,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 109.22 107.95 180)
+		(at 109.22 118.11 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4068,7 +4098,7 @@
 		(dnp no)
 		(uuid "22e79b07-b0b1-4886-afaa-b19f542d799b")
 		(property "Reference" "R10"
-			(at 111.76 106.68 90)
+			(at 111.76 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4077,7 +4107,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 106.68 105.41 90)
+			(at 106.68 115.57 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4086,7 +4116,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 109.22 107.95 0)
+			(at 109.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4095,7 +4125,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 107.95 0)
+			(at 109.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4104,7 +4134,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 107.95 0)
+			(at 109.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4112,7 +4142,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 109.22 107.95 0)
+			(at 109.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4121,7 +4151,7 @@
 			)
 		)
 		(property "Part Description" "RES SMD 16.9K OHM 1% 1/4W 1206"
-			(at 109.22 107.95 0)
+			(at 109.22 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4211,7 +4241,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 138.43 121.92 0)
+		(at 138.43 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4219,7 +4249,7 @@
 		(dnp no)
 		(uuid "23942c27-59ec-464d-b34f-17213127fbd4")
 		(property "Reference" "R7"
-			(at 135.89 123.19 90)
+			(at 135.89 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4228,7 +4258,7 @@
 			)
 		)
 		(property "Value" "160"
-			(at 140.97 124.46 90)
+			(at 140.97 133.35 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4237,7 +4267,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 138.43 121.92 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4246,7 +4276,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 121.92 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4254,8 +4284,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "R7 Resitors to trim Gain"
-			(at 151.13 129.54 0)
+		(property "Description" "R7 and R20 Resitors to trim Gain"
+			(at 151.13 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4263,7 +4293,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 138.43 121.92 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4272,7 +4302,7 @@
 			)
 		)
 		(property "Part Description" "RES SMD 16.9K OHM 1% 1/4W 1206"
-			(at 138.43 121.92 0)
+			(at 138.43 130.81 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4421,6 +4451,92 @@
 			(project "HV_Amplifier"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "#PWR07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 143.51 69.85 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "2ef93f4e-37c3-45e0-91f6-d3455c2e31a9")
+		(property "Reference" "R16"
+			(at 142.24 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "50K"
+			(at 142.24 72.39 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "1206"
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4b1f2edb-90ff-417d-9ef9-7f5dbb54b03b")
+		)
+		(pin "2"
+			(uuid "a173c891-4280-4ffb-a3e6-19f90d4dfa84")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R16")
 					(unit 1)
 				)
 			)
@@ -4917,7 +5033,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 109.22 123.19 180)
+		(at 109.22 133.35 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4925,7 +5041,7 @@
 		(dnp no)
 		(uuid "4375d0d2-5cb7-4c09-87c0-97e09b9ca8a6")
 		(property "Reference" "R13"
-			(at 111.76 121.92 90)
+			(at 111.76 132.08 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4934,7 +5050,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 106.68 120.65 90)
+			(at 106.68 130.81 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4943,7 +5059,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 109.22 123.19 0)
+			(at 109.22 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4952,7 +5068,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 123.19 0)
+			(at 109.22 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,7 +5077,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 123.19 0)
+			(at 109.22 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4969,7 +5085,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 109.22 123.19 0)
+			(at 109.22 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4978,7 +5094,7 @@
 			)
 		)
 		(property "Part Description" "RES SMD 16.9K OHM 1% 1/4W 1206"
-			(at 109.22 123.19 0)
+			(at 109.22 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5088,16 +5204,34 @@
 		)
 	)
 	(symbol
-		(lib_id "jmlib:-VHV")
-		(at 109.22 105.41 270)
+		(lib_id "Device:R_Small_US")
+		(at 138.43 135.89 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "50d03139-0953-4e6a-b310-f2dbc315e9ce")
-		(property "Reference" "#PWR013"
-			(at 106.68 105.41 0)
+		(uuid "494f7fe9-7f2b-4ed9-b307-895b23614ed7")
+		(property "Reference" "R20"
+			(at 135.89 137.16 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "160"
+			(at 140.97 138.43 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 138.43 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5105,17 +5239,8 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+VLV"
-			(at 109.22 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" ""
-			(at 109.22 105.41 0)
+		(property "Datasheet" "~"
+			(at 138.43 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5123,8 +5248,86 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 109.22 105.41 0)
+		(property "Description" "R7 Resitors to trim Gain"
+			(at 151.13 143.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 138.43 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "RES SMD 16.9K OHM 1% 1/4W 1206"
+			(at 138.43 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b0426e3d-4cc3-4312-99aa-320aa56d3145")
+		)
+		(pin "2"
+			(uuid "caccb75a-c11b-4423-9d6a-73ef3cc03d62")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R20")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 138.43 110.49 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "509ee857-44a7-4462-9485-24cc4705be7c")
+		(property "Reference" "R19"
+			(at 135.89 111.76 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "5.1K"
+			(at 140.97 113.03 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 138.43 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 138.43 110.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5133,7 +5336,93 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 105.41 0)
+			(at 138.43 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "1206"
+			(at 138.43 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "RES SMD 16.9K OHM 1% 1/4W 1206"
+			(at 138.43 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9313e1d5-8656-443d-bd34-1673334f3fff")
+		)
+		(pin "2"
+			(uuid "53c8cd89-9325-473e-aa7e-81a1f2f3dcc2")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R19")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "jmlib:-VHV")
+		(at 109.22 115.57 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "50d03139-0953-4e6a-b310-f2dbc315e9ce")
+		(property "Reference" "#PWR013"
+			(at 106.68 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+VLV"
+			(at 109.22 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 109.22 115.57 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 109.22 115.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5283,15 +5572,15 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 115.57 116.84 270)
+		(at 151.13 69.85 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "53607fa0-cb5a-445d-9416-154284559248")
-		(property "Reference" "R3"
-			(at 114.3 114.3 90)
+		(uuid "5283e9a2-c056-4fa3-9e76-e2d756b59ccd")
+		(property "Reference" "R18"
+			(at 149.86 67.31 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5299,8 +5588,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "330k"
-			(at 113.03 119.38 90)
+		(property "Value" "50K"
+			(at 149.86 72.39 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5309,7 +5598,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 115.57 116.84 0)
+			(at 151.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5318,7 +5607,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 115.57 116.84 0)
+			(at 151.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5327,7 +5616,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 115.57 116.84 0)
+			(at 151.13 69.85 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5335,7 +5624,93 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 115.57 116.84 0)
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" ""
+			(at 151.13 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "58391d6e-f706-4e73-91a9-92350fbcbcd3")
+		)
+		(pin "2"
+			(uuid "06082c5b-987f-402d-bc29-73efdc9abe01")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 115.57 127 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "53607fa0-cb5a-445d-9416-154284559248")
+		(property "Reference" "R3"
+			(at 114.3 124.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "330k"
+			(at 113.03 129.54 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 115.57 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Package" "1206"
+			(at 115.57 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5344,7 +5719,7 @@
 			)
 		)
 		(property "Part Description" "RES SMD 16.9K OHM 1% 1/4W 1206"
-			(at 115.57 116.84 0)
+			(at 115.57 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5755,7 +6130,7 @@
 	)
 	(symbol
 		(lib_id "jmlib:-VHV")
-		(at 109.22 125.73 180)
+		(at 109.22 135.89 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5763,7 +6138,7 @@
 		(dnp no)
 		(uuid "72993106-7d2a-42f0-aaa7-db07578de05f")
 		(property "Reference" "#PWR02"
-			(at 109.22 123.19 0)
+			(at 109.22 133.35 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5772,7 +6147,7 @@
 			)
 		)
 		(property "Value" "-VLV"
-			(at 105.41 129.54 0)
+			(at 105.41 139.7 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5781,7 +6156,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 109.22 125.73 0)
+			(at 109.22 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5790,7 +6165,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 109.22 125.73 0)
+			(at 109.22 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5799,7 +6174,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 125.73 0)
+			(at 109.22 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5885,7 +6260,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 138.43 111.76 0)
+		(at 138.43 119.38 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5893,7 +6268,7 @@
 		(dnp no)
 		(uuid "7b29d820-f9ce-4dd2-b215-bf77315ffba9")
 		(property "Reference" "R2"
-			(at 135.89 113.03 90)
+			(at 135.89 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5902,7 +6277,7 @@
 			)
 		)
 		(property "Value" "5.1K"
-			(at 140.97 114.3 90)
+			(at 140.97 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5911,7 +6286,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 138.43 111.76 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5920,7 +6295,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 138.43 111.76 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5929,7 +6304,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 111.76 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5937,7 +6312,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 138.43 111.76 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5946,7 +6321,7 @@
 			)
 		)
 		(property "Part Description" "RES SMD 16.9K OHM 1% 1/4W 1206"
-			(at 138.43 111.76 0)
+			(at 138.43 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6848,7 +7223,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 138.43 130.81 0)
+		(at 138.43 140.97 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6857,7 +7232,7 @@
 		(fields_autoplaced yes)
 		(uuid "ba80c50b-8e1c-4547-95f3-65ba1ccac135")
 		(property "Reference" "#PWR0102"
-			(at 138.43 137.16 0)
+			(at 138.43 147.32 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6866,7 +7241,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 138.43 135.89 0)
+			(at 138.43 146.05 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6875,7 +7250,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 138.43 130.81 0)
+			(at 138.43 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6884,7 +7259,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 138.43 130.81 0)
+			(at 138.43 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6893,7 +7268,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 138.43 130.81 0)
+			(at 138.43 140.97 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6914,7 +7289,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 109.22 116.84 0)
+		(at 109.22 127 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6922,7 +7297,7 @@
 		(dnp no)
 		(uuid "c4603448-027d-429d-8d31-b36ff729dd8b")
 		(property "Reference" "RV2"
-			(at 105.41 113.03 90)
+			(at 105.41 123.19 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6930,7 +7305,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 105.41 116.84 90)
+			(at 105.41 127 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6938,7 +7313,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal"
-			(at 109.22 116.84 0)
+			(at 109.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6947,7 +7322,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 109.22 116.84 0)
+			(at 109.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6956,7 +7331,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 109.22 116.84 0)
+			(at 109.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6964,7 +7339,7 @@
 			)
 		)
 		(property "Mfg Part Number" "CT20EP503"
-			(at 109.22 116.84 0)
+			(at 109.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6973,7 +7348,7 @@
 			)
 		)
 		(property "Part Description" "TRIMMER 50K OHM 0.5W PC PIN SIDE"
-			(at 109.22 116.84 0)
+			(at 109.22 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
