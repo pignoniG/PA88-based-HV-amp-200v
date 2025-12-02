@@ -1242,156 +1242,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Jumper:Jumper_2_Open"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 0)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "JP"
-				(at 0 2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "Jumper_2_Open"
-				(at 0 -2.286 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "~"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "Jumper, 2-pole, open"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "Jumper SPST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "Jumper* TestPoint*2Pads* TestPoint*Bridge*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "Jumper_2_Open_0_0"
-				(circle
-					(center -2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(circle
-					(center 2.032 0)
-					(radius 0.508)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_0_1"
-				(arc
-					(start -1.524 1.27)
-					(mid 0 1.778)
-					(end 1.524 1.27)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "Jumper_2_Open_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 0 180)
-					(length 2.54)
-					(name "B"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Mechanical:MountingHole_Pad"
 			(pin_numbers
 				(hide yes)
@@ -2265,12 +2115,6 @@
 		(uuid "436761bd-37c9-4e86-9f18-56617df5e3a0")
 	)
 	(junction
-		(at 138.43 127)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "596e701b-8542-498b-bc59-63ce3040d2b0")
-	)
-	(junction
 		(at 156.21 110.49)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2395,16 +2239,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 127) (xy 146.05 127)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "060e0254-e3c7-43f7-8d3a-630899956de0")
-	)
-	(wire
-		(pts
 			(xy 91.44 87.63) (xy 97.79 87.63)
 		)
 		(stroke
@@ -2485,7 +2319,7 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 113.03) (xy 114.3 115.57)
+			(xy 109.22 110.49) (xy 109.22 113.03)
 		)
 		(stroke
 			(width 0)
@@ -2525,16 +2359,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 106.68) (xy 123.19 119.38)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "454c9dc0-a19a-470d-aaf7-9bb5ce508c1d")
-	)
-	(wire
-		(pts
 			(xy 168.91 90.17) (xy 170.815 90.17)
 		)
 		(stroke
@@ -2542,6 +2366,16 @@
 			(type default)
 		)
 		(uuid "456804c9-6466-47a7-87f7-82d1d7568b17")
+	)
+	(wire
+		(pts
+			(xy 118.11 116.84) (xy 138.43 116.84)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "456f1f9f-15d7-46b3-9431-c657774edd06")
 	)
 	(wire
 		(pts
@@ -2755,16 +2589,6 @@
 	)
 	(wire
 		(pts
-			(xy 123.19 106.68) (xy 138.43 106.68)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "806d3dc7-4389-40bf-9892-4bf1c2111444")
-	)
-	(wire
-		(pts
 			(xy 31.75 177.8) (xy 31.75 180.34)
 		)
 		(stroke
@@ -2885,16 +2709,6 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 116.84) (xy 146.05 116.84)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "a13f1b06-7824-4bc1-9b1f-59840d87d8a2")
-	)
-	(wire
-		(pts
 			(xy 168.91 110.49) (xy 168.91 102.87)
 		)
 		(stroke
@@ -2922,16 +2736,6 @@
 			(type default)
 		)
 		(uuid "aa89011c-de09-448e-97f5-a6996f3fc939")
-	)
-	(wire
-		(pts
-			(xy 138.43 127) (xy 138.43 130.81)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ae317478-9743-4061-a9ea-79d5133e1ebc")
 	)
 	(wire
 		(pts
@@ -3015,7 +2819,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 124.46) (xy 138.43 127)
+			(xy 138.43 124.46) (xy 138.43 130.81)
 		)
 		(stroke
 			(width 0)
@@ -3778,7 +3582,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9K"
+		(property "Value" "50K"
 			(at 160.02 72.39 90)
 			(effects
 				(font
@@ -3822,7 +3626,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "2019-RN73H2BTTD2003A05CT-ND"
+		(property "Part Description" ""
 			(at 161.29 69.85 0)
 			(effects
 				(font
@@ -4256,7 +4060,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 114.3 110.49 180)
+		(at 109.22 107.95 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4264,7 +4068,7 @@
 		(dnp no)
 		(uuid "22e79b07-b0b1-4886-afaa-b19f542d799b")
 		(property "Reference" "R10"
-			(at 116.84 109.22 90)
+			(at 111.76 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4273,7 +4077,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 111.76 107.95 90)
+			(at 106.68 105.41 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4282,7 +4086,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 114.3 110.49 0)
+			(at 109.22 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4291,7 +4095,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 110.49 0)
+			(at 109.22 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4300,7 +4104,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 110.49 0)
+			(at 109.22 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4308,7 +4112,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 114.3 110.49 0)
+			(at 109.22 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4317,7 +4121,7 @@
 			)
 		)
 		(property "Part Description" "RES SMD 16.9K OHM 1% 1/4W 1206"
-			(at 114.3 110.49 0)
+			(at 109.22 107.95 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4423,7 +4227,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "160"
 			(at 140.97 124.46 90)
 			(effects
 				(font
@@ -4451,7 +4255,7 @@
 			)
 		)
 		(property "Description" "R7 Resitors to trim Gain"
-			(at 143.51 129.54 0)
+			(at 151.13 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4961,76 +4765,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Jumper:Jumper_2_Open")
-		(at 146.05 121.92 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "388e9680-6350-48a9-baca-4a79ffbeeb04")
-		(property "Reference" "JP1"
-			(at 147.32 120.6499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "Jumper_2_Open"
-			(at 147.32 123.1899 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "Jumper:SolderJumper-2_P1.3mm_Open_RoundedPad1.0x1.5mm"
-			(at 146.05 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 146.05 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Jumper, 2-pole, open"
-			(at 146.05 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d2e358e0-0268-435d-ac60-6d9ffab6b3f8")
-		)
-		(pin "2"
-			(uuid "1c121381-547f-4193-b9f5-5fbc0d40c1ab")
-		)
-		(instances
-			(project ""
-				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
-					(reference "JP1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R_Small_US")
 		(at 36.83 165.1 180)
 		(unit 1)
@@ -5183,7 +4917,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 114.3 125.73 180)
+		(at 109.22 123.19 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5191,7 +4925,7 @@
 		(dnp no)
 		(uuid "4375d0d2-5cb7-4c09-87c0-97e09b9ca8a6")
 		(property "Reference" "R13"
-			(at 116.84 124.46 90)
+			(at 111.76 121.92 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5200,7 +4934,7 @@
 			)
 		)
 		(property "Value" "100k"
-			(at 111.76 123.19 90)
+			(at 106.68 120.65 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5209,7 +4943,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 114.3 125.73 0)
+			(at 109.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5218,7 +4952,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 125.73 0)
+			(at 109.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5227,7 +4961,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 125.73 0)
+			(at 109.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5235,7 +4969,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 114.3 125.73 0)
+			(at 109.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5244,7 +4978,7 @@
 			)
 		)
 		(property "Part Description" "RES SMD 16.9K OHM 1% 1/4W 1206"
-			(at 114.3 125.73 0)
+			(at 109.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5285,7 +5019,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "49.9K"
+		(property "Value" "50K"
 			(at 166.37 72.39 90)
 			(effects
 				(font
@@ -5329,7 +5063,7 @@
 				(hide yes)
 			)
 		)
-		(property "Part Description" "2019-RN73H2BTTD2003A05CT-ND"
+		(property "Part Description" ""
 			(at 167.64 69.85 0)
 			(effects
 				(font
@@ -5355,7 +5089,7 @@
 	)
 	(symbol
 		(lib_id "jmlib:-VHV")
-		(at 114.3 107.95 270)
+		(at 109.22 105.41 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5363,7 +5097,7 @@
 		(dnp no)
 		(uuid "50d03139-0953-4e6a-b310-f2dbc315e9ce")
 		(property "Reference" "#PWR013"
-			(at 111.76 107.95 0)
+			(at 106.68 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5372,7 +5106,7 @@
 			)
 		)
 		(property "Value" "+VLV"
-			(at 114.3 105.41 0)
+			(at 109.22 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5381,7 +5115,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 107.95 0)
+			(at 109.22 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5390,7 +5124,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 107.95 0)
+			(at 109.22 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5399,7 +5133,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 107.95 0)
+			(at 109.22 105.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5549,7 +5283,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Small_US")
-		(at 120.65 119.38 270)
+		(at 115.57 116.84 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5557,7 +5291,7 @@
 		(dnp no)
 		(uuid "53607fa0-cb5a-445d-9416-154284559248")
 		(property "Reference" "R3"
-			(at 119.38 116.84 90)
+			(at 114.3 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5565,8 +5299,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10M"
-			(at 118.11 121.92 90)
+		(property "Value" "330k"
+			(at 113.03 119.38 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5575,7 +5309,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
-			(at 120.65 119.38 0)
+			(at 115.57 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5584,7 +5318,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 120.65 119.38 0)
+			(at 115.57 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5593,7 +5327,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 119.38 0)
+			(at 115.57 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5601,7 +5335,7 @@
 			)
 		)
 		(property "Package" "1206"
-			(at 120.65 119.38 0)
+			(at 115.57 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5610,7 +5344,7 @@
 			)
 		)
 		(property "Part Description" "RES SMD 16.9K OHM 1% 1/4W 1206"
-			(at 120.65 119.38 0)
+			(at 115.57 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6021,7 +5755,7 @@
 	)
 	(symbol
 		(lib_id "jmlib:-VHV")
-		(at 114.3 128.27 180)
+		(at 109.22 125.73 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6029,7 +5763,7 @@
 		(dnp no)
 		(uuid "72993106-7d2a-42f0-aaa7-db07578de05f")
 		(property "Reference" "#PWR02"
-			(at 114.3 125.73 0)
+			(at 109.22 123.19 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6038,7 +5772,7 @@
 			)
 		)
 		(property "Value" "-VLV"
-			(at 110.49 132.08 0)
+			(at 105.41 129.54 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6047,7 +5781,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 114.3 128.27 0)
+			(at 109.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6056,7 +5790,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 114.3 128.27 0)
+			(at 109.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6065,7 +5799,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 128.27 0)
+			(at 109.22 125.73 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7049,6 +6783,71 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 280.67 135.89 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b6b10373-7851-4505-8577-dacb33e0ca8f")
+		(property "Reference" "#PWR015"
+			(at 280.67 142.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 280.67 140.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 280.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 280.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 280.67 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "94233e18-29eb-490d-af2e-7c9be35b7cd5")
+		)
+		(instances
+			(project "Amplifier"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "#PWR015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 138.43 130.81 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -7115,7 +6914,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_Potentiometer")
-		(at 114.3 119.38 0)
+		(at 109.22 116.84 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -7123,7 +6922,7 @@
 		(dnp no)
 		(uuid "c4603448-027d-429d-8d31-b36ff729dd8b")
 		(property "Reference" "RV2"
-			(at 110.49 115.57 90)
+			(at 105.41 113.03 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7131,7 +6930,7 @@
 			)
 		)
 		(property "Value" "100K"
-			(at 110.49 119.38 90)
+			(at 105.41 116.84 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7139,7 +6938,7 @@
 			)
 		)
 		(property "Footprint" "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal"
-			(at 114.3 119.38 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7148,7 +6947,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 114.3 119.38 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7157,7 +6956,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 114.3 119.38 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7165,7 +6964,7 @@
 			)
 		)
 		(property "Mfg Part Number" "CT20EP503"
-			(at 114.3 119.38 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7174,7 +6973,7 @@
 			)
 		)
 		(property "Part Description" "TRIMMER 50K OHM 0.5W PC PIN SIDE"
-			(at 114.3 119.38 0)
+			(at 109.22 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7217,7 +7016,7 @@
 				)
 			)
 		)
-		(property "Value" "100"
+		(property "Value" "10"
 			(at 134.62 101.6 90)
 			(effects
 				(font
