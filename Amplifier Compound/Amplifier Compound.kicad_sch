@@ -3706,7 +3706,7 @@
 		)
 		(uuid "c63b93bc-bb69-47ff-8538-9e0e524a431b")
 	)
-	(label "Low voltage supply for DC bias"
+	(label "Low voltage supply for DC LT1012"
 		(at 17.78 154.94 0)
 		(effects
 			(font
