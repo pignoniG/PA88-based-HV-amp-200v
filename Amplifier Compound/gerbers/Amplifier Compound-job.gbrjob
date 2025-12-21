@@ -5,16 +5,16 @@
       "Application": "Pcbnew",
       "Version": "9.0.5"
     },
-    "CreationDate": "2025-12-02T20:22:52+01:00"
+    "CreationDate": "2025-12-21T21:47:29+01:00"
   },
   "GeneralSpecs": {
     "ProjectId": {
-      "Name": "Amplifier",
-      "GUID": "416d706c-6966-4696-9572-2e6b69636164",
+      "Name": "Amplifier Compound",
+      "GUID": "416d706c-6966-4696-9572-20436f6d706f",
       "Revision": "rev?"
     },
     "Size": {
-      "X": 77.84,
+      "X": 90.1,
       "Y": 60.1
     },
     "LayerNumber": 2,
@@ -27,54 +27,54 @@
       "PadToPad": 0.2,
       "PadToTrack": 0.2,
       "TrackToTrack": 0.2,
-      "MinLineWidth": 0.5,
-      "TrackToRegion": 0.7,
-      "RegionToRegion": 0.7
+      "MinLineWidth": 0.25,
+      "TrackToRegion": 0.2,
+      "RegionToRegion": 0.2
     }
   ],
   "FilesAttributes": [
     {
-      "Path": "Amplifier-F_Cu.gbr",
+      "Path": "Amplifier Compound-F_Cu.gbr",
       "FileFunction": "Copper,L1,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Amplifier-B_Cu.gbr",
+      "Path": "Amplifier Compound-B_Cu.gbr",
       "FileFunction": "Copper,L2,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Amplifier-F_Paste.gbr",
+      "Path": "Amplifier Compound-F_Paste.gbr",
       "FileFunction": "SolderPaste,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Amplifier-B_Paste.gbr",
+      "Path": "Amplifier Compound-B_Paste.gbr",
       "FileFunction": "SolderPaste,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Amplifier-F_Silkscreen.gbr",
+      "Path": "Amplifier Compound-F_Silkscreen.gbr",
       "FileFunction": "Legend,Top",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Amplifier-B_Silkscreen.gbr",
+      "Path": "Amplifier Compound-B_Silkscreen.gbr",
       "FileFunction": "Legend,Bot",
       "FilePolarity": "Positive"
     },
     {
-      "Path": "Amplifier-F_Mask.gbr",
+      "Path": "Amplifier Compound-F_Mask.gbr",
       "FileFunction": "SolderMask,Top",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Amplifier-B_Mask.gbr",
+      "Path": "Amplifier Compound-B_Mask.gbr",
       "FileFunction": "SolderMask,Bot",
       "FilePolarity": "Negative"
     },
     {
-      "Path": "Amplifier-Edge_Cuts.gbr",
+      "Path": "Amplifier Compound-Edge_Cuts.gbr",
       "FileFunction": "Profile",
       "FilePolarity": "Positive"
     }
