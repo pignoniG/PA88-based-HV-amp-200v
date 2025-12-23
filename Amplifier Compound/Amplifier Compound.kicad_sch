@@ -3572,7 +3572,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 85.09) (xy 200.66 85.09)
+			(xy 177.8 85.09) (xy 182.88 85.09)
 		)
 		(stroke
 			(width 0)
@@ -3609,6 +3609,16 @@
 			(type default)
 		)
 		(uuid "7e40ae48-ef76-462a-bb3c-b3e842ca6d49")
+	)
+	(wire
+		(pts
+			(xy 187.96 85.09) (xy 200.66 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f7286a6-f594-47bc-b572-393cc6954e61")
 	)
 	(wire
 		(pts
@@ -7261,6 +7271,93 @@
 			(project "Amplifier Compound"
 				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
 					(reference "R17")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Small_US")
+		(at 185.42 85.09 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "89a4e376-52af-42da-a1d0-71552b19c860")
+		(property "Reference" "R23"
+			(at 184.15 82.55 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100"
+			(at 184.15 87.63 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_1206_3216Metric_Pad1.30x1.75mm_HandSolder"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "11ohm for max 64mA R=0,7/I"
+			(at 197.485 90.17 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Package" "1206"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Part Description" "RES 150 OHM 1% 1/2W 1206"
+			(at 185.42 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "09a8243c-7833-46a7-855d-1e6a57c97ade")
+		)
+		(pin "2"
+			(uuid "af543879-0028-4103-b762-5450ec8a6f89")
+		)
+		(instances
+			(project "Amplifier Compound"
+				(path "/e63e39d7-6ac0-4ffd-8aa3-1841a4541b55"
+					(reference "R23")
 					(unit 1)
 				)
 			)
